@@ -20,6 +20,11 @@ namespace BridgePattern
             storeApplication.Init();
             Console.WriteLine();
 
+            Console.WriteLine("Модифицируем реализацию ");
+            storeApplication.Themes = new Theme[1] { new DarkTheme() };
+            storeApplication.Init();
+            Console.WriteLine();
+
             webSite.Init();
             Console.WriteLine();
 

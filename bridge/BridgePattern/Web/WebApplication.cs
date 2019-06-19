@@ -7,7 +7,7 @@ namespace BridgePattern.Web
 {
     public abstract class BaseWebApplication
     {
-        public Theme[] Themes { get; private set; }
+        public Theme[] Themes { get; set; }
 
         public BaseWebApplication(Theme[] themes)
         {
